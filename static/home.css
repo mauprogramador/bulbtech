@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+.header-item {
+    display: flex;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.title {
+    font-weight: bold;
+}
